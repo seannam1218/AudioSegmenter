@@ -40,5 +40,5 @@ for i in range(0, len(audioSeg), msec(SEG_LENGTH)):
 	#output_name = output_name.replace(':', '_')
 	print(output_name)
 	
-	segment.export('/contents/segment_data/'+podcast_num+'/'+output_name+'.wav', format="wav")
+	segment.export('/content/segment_data/'+podcast_num+'/'+output_name+'.wav', format="wav")
 
